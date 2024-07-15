@@ -1,0 +1,90 @@
+body {
+    background-color: blueviolet !important;
+}
+
+#mainContainer {
+    border: 2px solid black;
+    width: 500px;
+    height: 250px;
+    box-shadow: 12px 12px 12px rgb(255, 255, 255);
+}
+
+#parentDiv {
+    height: 70vh;
+}
+#h-color{
+    color: lavender;
+}
+#rollNumber {
+    width: 60%;
+    padding: 10px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    border-color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+#rollNumber:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+#markBtn {
+    border: none;
+    width: 140px;
+    padding: 10px;
+    background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+    color: #333; 
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.4s ease;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 16px;
+    text-transform: uppercase;
+    
+}
+
+#markBtn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.4); 
+}
+
+#markBtn:hover {
+    background: linear-gradient(135deg, #ffc3a0, #000000); 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); 
+    color: white; 
+}
+
+#downloadExcel {
+    border: 2px solid black;
+    width: 120px;
+    padding: 10px;
+    background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#downloadExcel:hover {
+    border-color: white;
+    background: linear-gradient(135deg, #000000, #ffafbd);
+    color: white;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    font-weight: bold;
+}
+
+#downloadExcel:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(33, 150, 243, 0.5);
+    transform: rotateY(10deg);
+    font-weight: bold;
+}
