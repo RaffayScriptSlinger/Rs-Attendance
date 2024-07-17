@@ -1,4 +1,4 @@
-body {
+ body {
     background-color: blueviolet !important;
 }
 
@@ -18,11 +18,11 @@ body {
 #rollNumber {
     width: 60%;
     padding: 10px;
-    margin-top: 60px;
+    margin-top: 10px;
     margin-bottom: 10px;
     box-sizing: border-box;
     border: 2px solid #ccc;
-    border-radius: 4px;
+    border-radius: 6px;
     font-size: 16px;
     border-color: rgb(0, 0, 0);
     font-weight: bolder;
@@ -33,58 +33,77 @@ body {
     outline: none;
 }
 
-#markBtn {
-    border: none;
-    width: 140px;
+#Name{
+    width: 60%;
     padding: 10px;
-    background: linear-gradient(135deg, #ffafbd, #ffc3a0);
-    color: #333; 
-    border-radius: 25px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    transition: all 0.4s ease;
-    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    border-color: rgb(0, 0, 0);
     font-weight: bolder;
+
+}
+#Name:focus{
+    border-color: #4CAF50;
+    outline: none;
+
+}
+    button {
+    width: 120px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px !important;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-weight: bold;
     font-size: 16px;
     text-transform: uppercase;
-    
+    transition: all 0.4s ease;
+}
+
+
+#markBtn {
+    background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+    color: #333;
+
+}
+
+#markBtn:hover {
+    background: linear-gradient(135deg, #ffc3a0, #000000);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    color: white;
+
 }
 
 #markBtn:focus {
     outline: none;
     box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.4); 
+
 }
 
-#markBtn:hover {
-    background: linear-gradient(135deg, #ffc3a0, #000000); 
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); 
-    color: white; 
-}
 
 #downloadExcel {
-    border: 2px solid black;
-    width: 120px;
-    padding: 10px;
     background: linear-gradient(135deg, #ffafbd, #ffc3a0);
-    color: rgb(0, 0, 0);
-    border-radius: 25px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: all 0.5s ease;
-    cursor: pointer;
-    font-weight: bold;
+    color: #333;
+    border: 2px solid black;
 }
 
 #downloadExcel:hover {
-    border-color: white;
     background: linear-gradient(135deg, #000000, #ffafbd);
-    color: white;
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    color: white;
     transform: scale(1.05);
-    font-weight: bold;
 }
 
 #downloadExcel:focus {
     outline: none;
     box-shadow: 0 0 10px rgba(33, 150, 243, 0.5);
     transform: rotateY(10deg);
-    font-weight: bold;
 }
+
+
+
